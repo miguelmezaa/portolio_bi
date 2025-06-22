@@ -1,0 +1,7 @@
+This dataset contains curated travel information for 560 cities across the globe, offering a rich blend of structured data and subjective experience-based ratings. It is designed to support applications in travel recommendation systems, climate analysis, tourism research, and trip planning.
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("furkanima/worldwide-travel-cities-ratings-and-climate")
+
+print("Path to dataset files:", path)
